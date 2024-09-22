@@ -1,21 +1,31 @@
 # Type your responses on a new line
 
 # 1 - What is the command for listing the files in the current folder (directory)?
+  ls is the terminal command that will list all existing files in the current folder you are in.
 
 # 2 - What is the command for changing directories?
+  cd [folder location, i.e documents, prime folder, etc]
 
 # 3 - What is the command for going "up" a folder (to a parent directory)?
+  cd ..
 
 # 4 - What is a quick way to create a new folder?
+  You would type mkdir followed by the name of the folder you want to create. For example; mkdir new-folder.
 
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
+  Nothing will show up if you use the command ls on an empty folder, but in a folder containing files you would see the title of every file that lives in that folder. For example, for when I use the ls command on my desktop, it shows 6 files that live in there: Documents, Downloads, Library, Movies, Music, and Pictures.
 
 # 6 - What is a quick way to create a new file?
+  You have to go to the main page of the repository, browse to where you would like to create a new file, and select add new file from the drop down. 
 
 # 7 - Run 'git --version' in your terminal. What is the output?
+  git version 2.39.3 (Apple Git-146)
 
 # 8 - Why would you run the command 'git status'?
+  It inspects and tells you the current state of the repository, if they are in the staging area but not commited they will show up after entering the status command. If there are no changes it will tell you that the tree directory is clean.
 
 # 9 - What does the command 'git add .' do?
+  This command adds any changes in the working directory into the staging area. It tells Git that you wants to add changes in your next commit but they are not actually recorded until you run git commit. 
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+  git commit -m "a description of what you just worked on and commiting".
