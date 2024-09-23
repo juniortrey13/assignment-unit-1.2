@@ -16,7 +16,7 @@
   Nothing will show up if you use the command ls on an empty folder, but in a folder containing files you would see the title of every file that lives in that folder. For example, for when I use the ls command on my desktop, it shows 6 files that live in there: Documents, Downloads, Library, Movies, Music, and Pictures.
 
 # 6 - What is a quick way to create a new file?
-  You have to go to the main page of the repository, browse to where you would like to create a new file, and select add new file from the drop down. 
+  touch [file name].[file type], example touch newfile.ls
 
 # 7 - Run 'git --version' in your terminal. What is the output?
   git version 2.39.3 (Apple Git-146)
